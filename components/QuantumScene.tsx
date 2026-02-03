@@ -61,7 +61,7 @@ export const HeroScene: React.FC = () => {
         <pointLight position={[10, 10, 10]} intensity={1} />
         <Float speed={1.5} rotationIntensity={0.2} floatIntensity={0.5}>
           <QuantumParticle position={[0, 0, 0]} color="#4F46E5" scale={1.2} />
-          <MacroscopicWave />
+          {/*<MacroscopicWave />*/}
         </Float>
         
         <Float speed={2} rotationIntensity={0.5} floatIntensity={1}>
